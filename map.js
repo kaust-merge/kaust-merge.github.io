@@ -41,6 +41,7 @@ function initStreetViewer(panoramaData) {
         map.classList.remove('hide');
         btn.classList.add('hide');
         $("#views").val("day_1.jpg");
+        globalSelectedView = "day_1.jpg";
         $("#views").hide();
     })
 
