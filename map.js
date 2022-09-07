@@ -40,6 +40,7 @@ function initStreetViewer(panoramaData) {
         panorama.classList.add('hide');
         map.classList.remove('hide');
         btn.classList.add('hide');
+        $("#views").val("day_1.jpg");
         $("#views").hide();
     })
 
