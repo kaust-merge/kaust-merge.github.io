@@ -8,7 +8,9 @@
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },
-            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg","day_4.jpg","night_1.jpg","night_2.jpg"],
+            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg","day_4.jpg","night_1.jpg","night_2.jpg"
+                ,"day_BSP_1.jpg","day_BSP_2.jpg","day_BSP_3.jpg","day_BSP_4.jpg"
+                ,"night_BSP_1.jpg","night_BSP_2.jpg","night_BSP_3.jpg","night_BSP_4.jpg","night_BSP_5.jpg","night_BSP_6.jpg"],
             "locationName": "Bsp_line_mountain",
             "scenes": {
                 "1": {
