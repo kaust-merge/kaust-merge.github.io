@@ -1,0 +1,69 @@
+[
+    {
+        "y": 300,
+        "x": 500,
+        "locationName": "left",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "locationName": "left",
+            "scenes": {
+                "1": {
+                    "hfov": 80,
+                    "pitch": 10,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "HR_1.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    },{
+        "y": 100,
+        "x": 1650,
+        "locationName": "center",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "locationName": "center",
+            "scenes": {
+                "1": {
+                    "hfov": 90,
+                    "pitch": 15,
+                    "yaw": -40,
+                    "type": "equirectangular",
+                    "panorama": "HR_2.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    },{
+        "y": 350,
+        "x": 2300,
+        "locationName": "right",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "locationName": "right",
+            "scenes": {
+                "1": {
+                    "hfov": 90,
+                    "pitch": 0,
+                    "yaw": 190,
+                    "type": "equirectangular",
+                    "panorama": "HR_3.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    }
+]
