@@ -20,43 +20,32 @@
                 <div class="nav-links">
                     <a href="#features">Features</a>
                     <a href="privacy.html">Privacy Policy</a>
+                    <a href="mailto:kaust.merge@gmail.com">Contact</a>
                 </div>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Track Your Journey, Save Your Path</h1>
-            <p>Maplisto allows you to record GPS itineraries, export them to Google Maps, and never lose your way again.
-                Perfect for travelers, drivers, and explorers.</p>
-            <a href="#" class="download-btn">Get it on Google Play</a>
+    <section class="hero"
+        style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; padding: 100px 20px; position: relative; overflow: hidden;">
+        <div class="container" style="position: relative; z-index: 2;">
+            <h1 style="color: white; text-shadow: 0 4px 10px rgba(0,0,0,0.2);">Track. Share. Explore.</h1>
+            <p style="color: rgba(255,255,255,0.9); font-size: 1.5rem; max-width: 800px; margin: 0 auto 40px;">
+                100% Offline & Private. No servers, no accounts. <br>
+                Record your path and convert it to a simple Google Maps link.
+            </p>
+            <a href="#" class="download-btn"
+                style="background-color: white; color: #2563eb; padding: 15px 40px; font-size: 1.2rem;">Get it on Google
+                Play</a>
+        </div>
+        <!-- Subtle Pattern Overlay -->
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 30px 30px;">
         </div>
     </section>
 
-    <section id="features" class="features">
-        <div class="container">
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📍</div>
-                    <h3>GPS Recording</h3>
-                    <p>Track your movement in real-time with high-precision GPS recording.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🗺️</div>
-                    <h3>Export to Maps</h3>
-                    <p>One-tap export to Google Maps for turn-by-turn navigation of your saved routes.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💾</div>
-                    <h3>Offline Saving</h3>
-                    <p>Save multiple itineraries locally on your device without needing an account.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="screenshots">
+    <!-- Screenshots Section (Moved Up) -->
+    <section class="screenshots" style="background-color: #f9fafb; padding-top: 80px;">
         <div class="container">
             <h2>See it in action</h2>
             <div class="screenshot-container">
@@ -65,6 +54,37 @@
                 <img src="assets/c.jpg" alt="Maplisto List View" class="app-screenshot">
                 <img src="assets/d.jpg" alt="Maplisto Upgrade" class="app-screenshot">
                 <img src="assets/e.jpg" alt="Maplisto Upgrade" class="app-screenshot">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section (Moved Down, Privacy Emphasis) -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>100% Private & Offline</h3>
+                    <p>Your data never leaves your phone. All itineraries are stored locally. We have no servers and no
+                        access to your location.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Simple Google Maps Link</h3>
+                    <p>No complex files (KML/GPX). We just generate a standard Google Maps URL containing your route
+                        points. Share it instantly!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>GPS Recording</h3>
+                    <p>Accurately track your movement in real-time, whether you are driving, cycling, or walking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Simple Pricing</h3>
+                    <p>Free version: up to 10 points per itinerary. Upgrade to Pro for just <strong>$1 lifetime</strong>
+                        and get unlimited points forever!</p>
+                </div>
             </div>
         </div>
     </section>
